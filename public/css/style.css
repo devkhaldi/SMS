@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+.header {
+    border-bottom: 2px solid #00c9b7;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px !important;
+}
+.header-container {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.header-container > h2 {
+
+}
+.bg-light {
+
+    background: #00c9b7 !important;
+    -webkit-box-shadow: 5px 9px 43px 1px rgba(0,0,0,0.18); 
+	box-shadow: 5px 9px 43px 1px rgba(0,0,0,0.18);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.bg-light > a {
+    color: #fff !important;
+}
+.navbar-nav > a {
+    color: #fff !important;
+}
+.navbar-nav > a:hover {
+    text-decoration: underline;
+}
+img {
+    height: 400px;
+    vertical-align: middle;
+    border-style: none;
+}
+body {
+    background : #eee ;
+}
+.card {
+    border : none !important;
+    border-bottom: 3px solid #00c9b7 !important;
+}
+input[type=text] {
+
+    background : #eee ;
+    border: none !important;
+    box-shadow: 0px 1px 1px #ddd !important;
+    autocomplete: off;
+}
+input[type=text]:focus{
+    background : #eee ;
+    border: none !important;
+    box-shadow: 0px 4px 5px #ccc !important;
+}
+.thead-light {
+
+}
+.table .thead-light th {
+    color : #fff !important;
+    background: #00c9b7 !important;
+    border: none !important;
+}
+footer {
+    height: 10px;
+    width: 100%;
+    margin-top: 60px;
+    background:#00c9b7 ;
+}
